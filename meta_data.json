@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "data (things)"
+    },
+    "data_tracked": false,
+    "description": "Input Superpowers is a lightweight and powerful plugin that gives you full control over how users type into your inputs. With two flexible modes — Mask and Restrict — you can easily format values in real time (like phone numbers, CPF, dates, or custom patterns) or strictly control which characters are allowed (text, numbers, symbols, and more). The plugin automatically cleans and structures the input while publishing useful states such as character count, a sanitized value for database storage, and mask validation status. It’s simple to implement, highly customizable, and designed to improve both data quality and user experience — all with zero cost.",
+    "image": "//meta-q.cdn.bubble.io/f1776871609354x230985300783320480/ChatGPT%20Image%2022%20de%20abr.%20de%202026%2C%2012_26_36.png",
+    "license": "open_source",
+    "link": "https://moabeplugins.bubbleapps.io/version-test/receive_only_text",
+    "name": "Input Super Powers 🪄✨",
+    "platforms_new": "web",
+    "plugin_instructions": "To use Input Superpowers, simply add the plugin to your page and provide the ID of the input element you want to control. Then choose between *Mask* or *Restrict* mode. In Mask mode, define a custom pattern using `0` for numbers, `A` for letters, and `S` for alphanumeric characters — the plugin will automatically format the input as the user types and indicate when the mask is complete. In Restrict mode, you can toggle which types of characters are allowed (text, numbers, spaces, hyphens, and special characters), and any invalid input will be instantly removed. The plugin also exposes useful states like character count, cleaned value (ready for database storage), and mask validation, which you can use in workflows or conditions inside Bubble.\n",
+    "sa_node_version": 18
+}

@@ -1,0 +1,112 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 15,
+        "width": 15
+    },
+    "display": "Input Super powers",
+    "fields": {
+        "AAF": {
+            "caption": "Element ID",
+            "doc": "Insert your input ID here. If the ID insertion field is not available, you must enable it in preferences.",
+            "editor": "DynamicValue",
+            "name": "element_id",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Allow numbers",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "allow_numbers",
+            "rank": 2
+        },
+        "AAI": {
+            "caption": "Allow spaces",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "allow_spaces",
+            "rank": 3
+        },
+        "AAK": {
+            "caption": "Allow text",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "allow_text",
+            "rank": 4
+        },
+        "AAL": {
+            "caption": "Type",
+            "default_val": "Restrict",
+            "editor": "Dropdown",
+            "name": "type",
+            "options": "Mask,Restrict",
+            "rank": 7
+        },
+        "AAM": {
+            "caption": "Mask",
+            "editor": "DynamicValue",
+            "name": "mask",
+            "optional": true,
+            "rank": 8,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "Allow hyphen",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "allow_hyphen",
+            "rank": 5
+        },
+        "AAP": {
+            "caption": "Select Restrict to simply block specific characters based on the checkboxes below (e.g., allow only numbers or letters). This is useful for free-form inputs like names or passwords.  Select Mask to enforce a fixed format. The plugin will automatically insert symbols and format the text as the user types (e.g., for phone numbers or dates). In Mask mode, the exposed 'Clean Value' state returns the raw data without special characters.",
+            "editor": "Label",
+            "name": "docs",
+            "rank": 0
+        },
+        "AAQ": {
+            "caption": "Define the input pattern using these placeholders: • 0: Digit only (0-9) • A: Letter only (a-z) • S: Alphanumeric (a-z, 0-9)  Any other character (like -, ., /, ( )) is treated as a fixed symbol and appears automatically.  Example: (000) 000-0000",
+            "editor": "Label",
+            "name": "docs_2",
+            "rank": 9
+        },
+        "AAR": {
+            "caption": "Allow Special",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "allow_special",
+            "rank": 6
+        }
+    },
+    "icon": "ion-ios-star",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAJ": {
+            "caption": "Character count",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "character_count",
+            "value": "number"
+        },
+        "AAO": {
+            "caption": "Clean Value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "clean_value",
+            "value": "text"
+        },
+        "AAS": {
+            "caption": "Valid mask",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "valid_mask",
+            "value": "boolean"
+        }
+    }
+}

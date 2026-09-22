@@ -1,0 +1,19 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 10,
+        "width": 10
+    },
+    "display": "input text only",
+    "fields": {
+        "AAD": {
+            "caption": "element ID",
+            "editor": "DynamicValue",
+            "name": "element_id",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-checkbox-blank"
+}
